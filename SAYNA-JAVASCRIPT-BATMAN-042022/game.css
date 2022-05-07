@@ -1,0 +1,88 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+.P1{
+    background-image:url(/Game/Batgame1.png);
+    background-size: cover;
+     min-height: 1000px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px 40px;
+    border:solid ;
+    margin: 0px 100px;
+    border-top: none;
+    border-color:  #928a8a;
+}
+.P1a a{
+    margin: 15px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.P2{
+    display: flex;
+    justify-content: space-between;
+}
+.P2b{
+    display: flex;
+    flex-direction: column;
+    margin:  150px 25px 50px;
+}
+.P3a{
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+    background-color: black;
+}
+.P4{
+    background-color: black;
+}
+h1{
+    font-family: 'Rajdhani' sans-serif;
+    font-size: 40px;
+}
+h2{
+    font-family: 'Space Grotrsk';
+    font-size: 26px;
+    padding: 20px 0px;
+}
+.P4{
+    padding: 50px 0px 50px 250px; 
+}
+.P5{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+}
+footer{
+     background-color: black;
+}
+.Fin1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.imageFin{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+} 
+.imageFin img {
+    padding: 10px;
+}
+.P5 button{
+    padding: 20px;
+    width: 300px;
+    margin: 30px;
+    background-image:  linear-gradient( to right, #ffff, #d4c2d7, #b9849f, #9c465a, #6f040d);
+}
